@@ -8,6 +8,9 @@ router.get('/', (req, res) => {
         if (err) throw err;
         res.send(rows);
     });
+    // mysql_connection.query(queries.insertUsers,  (err, rows, fields) => {
+    //     if (err) throw err;
+    // });
 });
 
 module.exports = router;
