@@ -1,0 +1,20 @@
+{
+  "name": "mysql_nodejs",
+  "version": "1.0.0",
+  "description": "learing_the_setUp_of_nodejs_with_mySql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "sido_zoldik",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
